@@ -1,0 +1,45 @@
+body {
+    background-image: url(../images/beyonce.jpg);
+    width: 100%;
+    height: 100%;
+}
+.alert-light{
+    padding-top:20px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 4px solid fuchsia;
+    margin: 1em 0;
+    padding: 0; 
+}
+.container {
+    color: gold;
+    text-decoration-style: dotted;
+    align-self: center;
+    
+}
+
+.btn-lg
+{
+   background-color:fuchsia;
+}
+.container-fluid{
+    background-color: rgba(150,150,150,0.8);
+    width: 50%;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+
+}
+#totalWins, #totalLoses, #currentWord, #remainingGuesses, #guessedLetters, #totalScore
+{
+    color: fuchsia;
+    text-align: center;
+    font: bold;
+    font: 200px;
+
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Word Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="reset-stylesheet" type="text/css" href="assets/css/reset.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    </head>
+
+    <body>
+     <form action="">  
+     <div class="container">
+     <h1 class="text-center" class="alert alert-light" role="alert"> Guess That Beyonce Song</h1>
+     <br><hr>
+    <p class="text-center">Press any key to get started!</p>
+    
+    <!--<a id="Button" onclick="newGame()" class="btn btn-primary btn-lg text-center" href="#" role="button">New Game</a>
+    -->
+    
+<button onclick="newGame()" id="newGame"> New Game</button>
+    <br>
+    <div class="container-fluid">
+     <h4 class="text-center">Wins:</h4>
+     <div id="totalWins"></div>
+     <br>
+     <h4 class="text-center">Loses:</h4>
+    <div id="totalLoses"></div>
+     <br>
+     <h4 class="text-center">Score:</h4>
+     <div id="totalScore"></div>
+      <br>
+    <h4 class="text-center">Current Word:</h4>
+    
+    <div id="currentWord"></div><br>
+    <h4 class="text-center">Guesses Remaining:</h4>
+    <div id="remainingGuesses"></div>  <br>
+    <h4 class="text-center">Letters Guessed:</h4>
+    <div id="guessedLetters"></div>
+     </div>           
+    </div>
+          
+    
+
+      <script src="assets/javascript/game.js">
+        </script>     
+        
+ 
+
+<audio id="sorry" src="assets/images/Sorry.mp3" preload="auto"></audio> 
+<audio id="mine" src="assets/images/Mine.mp3" preload="auto"></audio> 
+</body>
+
+</html>
